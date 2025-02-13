@@ -1,7 +1,7 @@
 import React from "react";
 import Theater from "./Theater";
 
-function TheaterList({ theaters = [] }) {
+function TheaterList({theaters = []}) {
   if (theaters.length) {
     return (
       <section className="mt-4">

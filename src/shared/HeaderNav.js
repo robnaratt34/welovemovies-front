@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function HeaderNav() {
   const style = {
-    padding: "1rem 0 3rem",
+    padding:"1rem 0 3rem",
   };
 
   const italic = {

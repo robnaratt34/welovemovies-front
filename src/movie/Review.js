@@ -15,7 +15,7 @@ function Review({ review, deleteReview, setReviewScore }) {
   const handleDecreaseClick = () => {
     const score = review.score - 1;
     if (score < 1) return;
-    setReviewScore(review, score);
+    setReviewScore(review,score);
   };
 
   const { critic } = review;

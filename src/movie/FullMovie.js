@@ -7,7 +7,7 @@ import { deleteReview, readMovie, updateReview } from "../utils/api";
 import ErrorAlert from "../shared/ErrorAlert";
 
 function FullMovie() {
-  const { movieId } = useParams();
+  const {movieId} = useParams();
   const [movie, setMovie] = useState({});
   const [error, setError] = useState(null);
 

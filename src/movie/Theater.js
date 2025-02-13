@@ -1,6 +1,6 @@
 import React from "react";
 
-function Theater({ theater }) {
+function Theater({theater}) {
   return (
     <article className="col-sm-12 col-md">
       <div className="card">

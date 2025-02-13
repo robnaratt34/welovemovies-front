@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Theater({ theater }) {
+function Theater({theater}) {
   return (
     <article className="col-12 mb-4">
       <div className="row">

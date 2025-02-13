@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import AverageRating from "../movie/AverageRating";
 
-function DetailedMovie({ movie }) {
+function DetailedMovie({movie}) {
   return (
     <section className="row mt-4">
       <article className="col-sm-12 col-md-6 col-lg-3">

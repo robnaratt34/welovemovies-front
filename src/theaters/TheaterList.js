@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Theater from "./Theater";
 import ErrorAlert from "../shared/ErrorAlert";
-import { listTheaters } from "../utils/api";
+import {listTheaters} from "../utils/api";
 
 function TheaterList() {
   const [theaters, setTheaters] = useState([]);

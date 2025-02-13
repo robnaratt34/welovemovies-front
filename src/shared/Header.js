@@ -12,7 +12,7 @@ function Header() {
   return (
     <div
       className="jumbotron jumbotron-fluid text-white border-bottom border-dark pt-0"
-      style={style}
+      style={ style }
     >
       <HeaderNav />
       <div className="container">

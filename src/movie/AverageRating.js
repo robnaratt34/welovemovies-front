@@ -8,7 +8,7 @@ function averageReviewRating(reviews = []) {
   return "N/A";
 }
 
-function AverageRating({ reviews = [] }) {
+function AverageRating({reviews = []}) {
   return (
     <p>
       <strong>Average Review Rating:</strong> {averageReviewRating(reviews)}

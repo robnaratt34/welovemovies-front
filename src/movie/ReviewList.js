@@ -4,7 +4,7 @@ import Review from "./Review";
 function ReviewList({ reviews = [], deleteReview, setReviewScore }) {
   if (reviews.length) {
     const list = reviews
-      .sort((leftReview, rightReview) => {
+      .sort((leftReview,rightReview) => {
         return leftReview.critic.preferred_name.localeCompare(
           rightReview.critic.preferred_name
         );

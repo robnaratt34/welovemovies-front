@@ -1,7 +1,7 @@
 import React from "react";
 import AverageRating from "./AverageRating";
 
-function Details({ movie }) {
+function Details({movie}) {
   return (
     <section>
       <h3 className="font-poppins-heading mb-4">{movie.title}</h3>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import DetailedMovie from "./DetailedMovie";
 import ErrorAlert from "../shared/ErrorAlert";
 import { listMovies } from "../utils/api";
