@@ -1,10 +1,8 @@
 # WeLoveMovies Frontend Application
 
-This is the Front End Application for the WeLoveMovies project. Follow the instructions below.
+This is the Front End Application for the WeLoveMovies project.
+This project uses React and React Router for the frontend, while the backend uses Express and a Postgresql database.
 
-## Installation
+The deployment for this project is found here:
 
-1. Fork / clone this repository.
-1. Run `npm install`.
-
-Use `npm start` to run the application. If you deploy this application, create a `.env.production` file similar to the `.env.development` file.
+The repository for the backend of the project is found here: https://github.com/robnaratt34/welovemovies.git
